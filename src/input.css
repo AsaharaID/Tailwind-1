@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-info {
+    @apply px-8 py-2 font-semibold text-white transition duration-150 rounded cursor-pointer bg-crimson;
+  }
+  .btn-info:hover {
+    @apply bg-red-700
+  }
+  .card{
+    @apply bg-gold rounded p-4 border-2 border-amber-700 text-white
+  }
+}
